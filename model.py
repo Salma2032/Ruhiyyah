@@ -1,4 +1,3 @@
-# Import necessary libraries
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -11,6 +10,7 @@ from imblearn.over_sampling import SMOTE
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
+import pickle
 
 # Step 1: Load the data
 data = pd.read_csv("/Applications/XAMPP/xamppfiles/htdocs/ConcentrEsi/sentiment_analysis.csv")
@@ -25,7 +25,7 @@ data['Age'] = np.clip(data['Age'], lower_bound, upper_bound)
 
 # Step 3: Encode categorical variables
 label_encoders = {}
-categorical_columns = ['Age','Sex', 'Pregnant', 'Job Title', 'Student', 'Difficulty Sleeping', 'Anxious', 'Introvert', 'Mood Swings', 'Appetite Loss', 'Mood']
+categorical_columns = ['Sex', 'Pregnant', 'Job Title', 'Student', 'Difficulty Sleeping', 'Anxious', 'Introvert', 'Mood Swings', 'Appetite Loss', 'Mood']
 for column in categorical_columns:
     le = LabelEncoder()
     data[column] = le.fit_transform(data[column])
@@ -38,7 +38,6 @@ y = data['Mood']
 # Step 4: Standardize numerical features
 scaler = StandardScaler()
 X['Age'] = scaler.fit_transform(X[['Age']])
-print("Feature columns:", X.columns)
 
 # Step 5: Handle Imbalanced Data using SMOTE
 smote = SMOTE(random_state=42)
@@ -77,13 +76,42 @@ print("Model saved as sentiment_model.pkl")
 app = Flask(__name__)
 CORS(app)
 model = joblib.load('sentiment_model.pkl')
+label_mapping = {
+    0: "Energetic",
+    1: "Happy",
+    2: "Calm",
+    3: "Pre-Depressed",
+    4: "Depressed"
+}
 
-@app.route('/predict', methods=['POST'])
+@app.route("/predict", methods=["POST"])
 def predict():
     data = request.get_json()
-    features = np.array(data['features']).reshape(1, -1)
-    prediction = model.predict(features)
-    return jsonify({'prediction': int(prediction[0])})
+    
+    print("Received data:", data)  # 👀 Log pour vérifier l'entrée
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5001)
+    if "features" not in data:
+        return jsonify({"error": "Missing 'features' key"}), 400
+
+    # Vérification du nombre de features
+    features = np.array(data["features"]).reshape(1, -1)
+    print("Processed features:", features)  # 👀 Log après conversion
+
+    # Vérification que les features ont bien la bonne forme
+    print("Shape of features received:", features.shape)
+    print("Feature names during training:", model.feature_names_in_)
+
+    try:
+        # Prediction
+        prediction = model.predict(features)
+        
+        # Afficher la prédiction sous forme humaine
+        human_readable = label_mapping[int(prediction[0])]
+        
+        return jsonify({"prediction": int(prediction[0]), "label": human_readable})
+    except Exception as e:
+        print("Error during prediction:", str(e))
+        return jsonify({"error": str(e)}), 500
+
+if __name__ == "__main__":
+    app.run(port=5001)
