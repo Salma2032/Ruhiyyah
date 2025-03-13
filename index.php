@@ -27,7 +27,7 @@ include 'session.php';
     <header class="header">
         <nav>
             <a href="index.php">
-                <img src="./images/logo.png" alt="">
+                <img src="./images/RUHIYYAH.png" alt="">
             </a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
