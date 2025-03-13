@@ -42,8 +42,8 @@ include 'session.php';
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
-            <h1>NOUVELLE OPPORTUNITE POUR LES ESISTES</h1>
-            <p id="homeDesc">Une collaboration efficace pour enrichir votre formation et de s'approcher du <b>marché de travail</b>.</p>
+            <h1> Your Personal Mental Well-being Assistant</h1>
+            <p id="homeDesc">Feel Better.Discover More.Live Well.</p>
         </div>
     </header>
     <section class="cta">
