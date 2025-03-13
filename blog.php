@@ -393,16 +393,16 @@ include 'session.php';
         }
      </style>
     <footer class="footer">
-        <h4 style="color:#000080">Social</h4>
-        <p>Vérifiez Nos Réseaux Sociaux Pour Plus D'infos</p>
-        <div class="icons">
-            <a href="https://web.facebook.com/ConcentrixIN/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/concentrixmaroc/"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="https://x.com/Concentrix?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.linkedin.com/company/concentrix/"><i class="fa-brands fa-linkedin"></i></a>
-            
-        </div>
-    </footer>
+            <h4 style="color:#000080">Social</h4>
+            <p>Don't forget to visit us in our social media platforms !</p>
+            <div class="icons">
+                <a ><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-square-instagram"></i></a>
+                <a><i class="fa-brands fa-x-twitter"></i></a>
+                <a><i class="fa-brands fa-linkedin"></i></a>
+                
+            </div>
+        </footer>
 
 
 
