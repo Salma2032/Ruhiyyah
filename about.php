@@ -40,11 +40,11 @@ include 'session.php';
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>A Propos</h1>
+        <h1>About Us</h1>
     </header>   
         <section class="about-us">
             <h1 style="color:#000080" class="schema">A propos du programme ConcentrEsi</h1>
-            <h4 class="schema"><br>      Le programme Concentresi, né de la collaboration entre l'entreprise Concentrix et l'École des Sciences de l'Information (ESI), est conçu pour offrir à chaque étudiant un traitement direct et rapide de leurs CVs, en leur proposant des stages en adéquation avec leurs filières d'études. Grâce à cette initiative innovante, les étudiants de l'ESI bénéficient d'un accès privilégié à une plateforme dédiée où leurs CVs sont minutieusement analysés et mis en correspondance avec des opportunités de stage pertinentes. Concentrix, fort de son expertise en solutions professionnelles, joue un rôle clé en facilitant cette correspondance grâce à des algorithmes avancés et une connaissance approfondie des besoins du marché du travail. Ainsi, les étudiants peuvent non seulement trouver des stages adaptés à leurs compétences et aspirations académiques, mais aussi bénéficier de l'expérience et du réseau professionnel de Concentrix. Cette collaboration stratégique vise à renforcer l'insertion professionnelle des étudiants, en leur offrant des stages de qualité qui leur permettent de développer leurs compétences pratiques et d'accéder à des opportunités de carrière prometteuses.</h4>
+            <h4 class="schema"><br>     At Ruhiyya, we believe that mental well-being is as important as physical health. Our mission is to empower individuals to take control of their mental health by offering personalized, accessible, and location-based support through innovative technology.</h4>
             <h1 class="schema" style="color:#000080" >La Schématisation Du Programme</h1>
             <h4 class="schema"><br>      Tout ce que vous devez savoir concernant ce programme ,les compétences que vous allez acquérir et conformément à votre année et filière tout en garantissant des outils pratiques et un mentorat qui rend votre stage un projet fascinant. <br>     Choisissez votre filière et l'année scolaire pour découvrir les différentes compétences à appliquer dans le stage <br><i style="color:#000080">Remarque: Pour les étudiants de la première année , il auront aussi une opportunité d'explorer le plan du travail et son déroulement pour se familiariser avant de commencer le technique.</i></h4>
             <div class="row">
