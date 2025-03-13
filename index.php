@@ -58,17 +58,17 @@ include 'session.php';
 
         <div class="row">
             <div class="course-col">
-                <h3>A l'écoute de votre filière</h3>
-                <p>Chaque filière avec son propre programme de stage où l'ensemble des compétences acquises s'appliquent</p>
+                <h3>Therapist Connection</h3>
+                <p>Users can access and contact mental health professionals directly through the platform</p>
             </div>
             <div class="course-col">
-                <h3>Un mentorat efficace</h3>
-                <p>Avec des encadrants qui suivient votre progrès et vous guident pour mieux produire et apprendre 
+                <h3>Mood-Based Recommendations</h3>
+                <p>Users take a quick pre-test to evaluate their daily mood, and the system suggests suitable activities and places to visit based on their emotional state
                 </p>
             </div>
             <div class="course-col">
-                <h3>Un entourage parfait</h3>
-                <p>Toute les conditions nécéssaires et suffaisantes pour mieux apprendre et s'adapter sont offertes
+                <h3>Knowledge Base for Mental Wellness</h3>
+                <p>A structured repository of resources, self-care techniques, and scientifically backed tips to help users understand and improve their mental health
                 </p>
             </div>
         </div>
@@ -77,7 +77,7 @@ include 'session.php';
     <!-- campus -->
 
     <section class="campus">
-        <h1>Les Villes Marocaines</h1>
+        <h1>Our Services</h1>
         <p>Où vous pouvez trouver nos sites</p>
 
         <div class="row">
@@ -85,19 +85,19 @@ include 'session.php';
             <div class="campus-col">
                 <img src="./images/tour_hassan2.jpg" alt="">
                 <a href="./maps/rabat.php"><div class="layer">
-                    <h3>RABAT</h3>
+                    <h3>Mood-Based Recommendations</h3>
                 </div></a>
             </div>
             <div class="campus-col">
                 <img src="./images/marrakesh.jpg" alt="">
                 <a href="./maps/marrakesh.php"><div class="layer">
-                    <h3>MARRAKESH</h3>
+                    <h3>Location-Aware Suggestions</h3>
                 </div></a>
             </div>
             <div class="campus-col">
                 <img src="./images/fez.jpg" alt="">
                 <a href="./maps/fez.php"><div class="layer">
-                    <h3>FEZ</h3>
+                    <h3>Knowledge Base for Mental Wellness</h3>
                 </div></a>
             </div>
         </div>
@@ -105,7 +105,7 @@ include 'session.php';
             <div class="campus-col">
                 <img src="./images/agadir-morocco.jpg" alt="">
                 <a href="./maps/agadir.php"><div class="layer">
-                    <h3>AGADIR</h3>
+                    <h3>Therapist Connection</h3>
                 </div></a>
             </div>
             <div class="campus-col">
@@ -117,18 +117,11 @@ include 'session.php';
             <div class="campus-col">
                 <img src="./images/Salé.jpg" alt="">
                 <a href="./maps/sale.php"><div class="layer">
-                    <h3>SALE</h3>
+                    <h3>Inclusivity for Women</h3>
                 </div></a>
             </div>
-        </div>
-        <div class="row">
-            <div class="campus-col">
-                <img src="./images/kenitra.jpg" alt="">
-                <a href="./maps/kenitra.php"><div class="layer">
-                    <h3>KENITRA</h3>
-                </div></a>
-            </div>
-        </div>
+        
+        
         </div>
     </section>
     <style>
