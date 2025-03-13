@@ -31,11 +31,10 @@ include 'session.php';
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="index.php">ACCEUIL</a></li>
-                <li><a href="about.php">A PROPOS</a></li>
-                <li><a href="course.php">APPLICATION</a></li>
-                <li><a href="blog.php">BLOG</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
+                <li><a href="index.php">HOME</a></li>
+                    <li><a href="course.php">TEST</a></li>
+                    <li><a href="blog.php">FAQ</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
             </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
