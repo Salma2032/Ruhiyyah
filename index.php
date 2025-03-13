@@ -94,21 +94,7 @@ include 'session.php';
                     <h3>Inclusivity for Women</h3>
                 </div></a>
             </div>
-            <div class="campus-col">
-                <img src="./images/Salé.jpg" alt="">
-                <a href="./maps/sale.php"><div class="layer">
-                    <h3>SALE</h3>
-                </div></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="campus-col">
-                <img src="./images/kenitra.jpg" alt="">
-                <a href="./maps/kenitra.php"><div class="layer">
-                    <h3>KENITRA</h3>
-                </div></a>
-            </div>
-        </div>
+            
         </div>
     </section>
     <style>
