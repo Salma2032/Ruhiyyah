@@ -49,8 +49,8 @@ include 'session.php';
     <section class="cta">
         <h1>Qui sommes nous ?</h1>
         <p id="homeDesc">
-            <B>Concentrix</B> est une entreprise internationale spécialisée dans la gestion externalisée des processus métiers (BPO) et la gestion de la relation client (CRM). Fondée en 1983 et ayant son siège social à Fremont, en Californie, Concentrix se distingue par son expertise dans la fourniture de solutions personnalisées visant à améliorer l'expérience client. À travers une large gamme de services incluant le support client multicanal, le support technique avancé, la gestion des ventes, le marketing digital, et l'analyse de données, Concentrix s'engage à optimiser l'efficacité opérationnelle de ses clients tout en renforçant leur capacité à se concentrer sur leur cœur de métier. Présente dans de nombreux pays à travers le monde, Concentrix emploie une main-d'œuvre diversifiée et hautement qualifiée pour répondre aux besoins variés des industries technologique, des télécommunications, financière, de la santé, et du commerce de détail. <br><br></p>
-        <a href="https://www.concentrix.com/" class="hero-btn ">VISITER NOTRE SITE</a>
+            <B>Ruhiyya,</B> we believe that mental well-being should be accessible, personalized, and seamlessly integrated into everyday life. Our mission is to empower individuals with the right tools and resources to navigate their emotional well-being with confidence. By combining AI-driven insights, mood-based recommendations, and location-aware services, we create a tailored experience that helps users make informed decisions about their mental health in real-time. More than just an app, Ruhiyya is a compassionate companion designed to support self-awareness, encourage proactive well-being, and bridge the gap between individuals and mental health professionals. With a special focus on inclusivity, particularly for women and those with unique needs, we strive to make mental wellness an intuitive and empowering journey for all. <br><br></p>
+        
     </section>
     <section class="course">
         <h1>Qui est nouveau dans notre <b>programme</b></h1>
