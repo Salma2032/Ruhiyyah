@@ -27,12 +27,12 @@ include 'session.php';
     <header class="header">
         <nav>
             <a href="index.php">
-                <img src="./images/RUHIYYAH.png" alt="">
+                <img src="./images/logo.png" alt="">
             </a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="index.php">HOME</a></li
                     <li><a href="course.php">TEST</a></li>
                     <li><a href="blog.php">FAQ</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
@@ -46,12 +46,14 @@ include 'session.php';
         </div>
     </header>
     <section class="cta">
-        <h1>Qui sommes nous ?</h1>
+        <h1>ABOUT US </h1>
         <p id="homeDesc">
-            <B>Ruhiyya,</B> we believe that mental well-being should be accessible, personalized, and seamlessly integrated into everyday life. Our mission is to empower individuals with the right tools and resources to navigate their emotional well-being with confidence. By combining AI-driven insights, mood-based recommendations, and location-aware services, we create a tailored experience that helps users make informed decisions about their mental health in real-time. More than just an app, Ruhiyya is a compassionate companion designed to support self-awareness, encourage proactive well-being, and bridge the gap between individuals and mental health professionals. With a special focus on inclusivity, particularly for women and those with unique needs, we strive to make mental wellness an intuitive and empowering journey for all. <br><br></p>
-        
+            <B>Ruhiyyah,</B>we believe that mental well-being should be accessible, personalized, and seamlessly integrated into everyday life. Our mission is to empower individuals with the right tools and resources to navigate their emotional well-being with confidence. By combining AI-driven insights, mood-based recommendations, and location-aware services, we create a tailored experience that helps users make informed decisions about their mental health in real-time. More than just an app, Ruhiyya is a compassionate companion designed to support self-awareness, encourage proactive well-being, and bridge the gap between individuals and mental health professionals. With a special focus on inclusivity, particularly for women and those with unique needs, we strive to make mental wellness an intuitive and empowering journey for all.<br><br></p>
+        <a href="https://www.concentrix.com/" class="hero-btn ">VISITER NOTRE SITE</a>
+    </section>
     
-          
+
+       
 
     <!-- campus -->
 
@@ -94,6 +96,7 @@ include 'session.php';
                 </div></a>
             </div>
             
+        
         </div>
     </section>
     <style>
@@ -196,7 +199,7 @@ include 'session.php';
             <h4 style="color:#000080">Social</h4>
             <p>Don't forget to visit us in our social media platforms !</p>
             <div class="icons">
-                <a ><i class="fa-brands fa-facebook"></i></a>
+            <a ><i class="fa-brands fa-facebook"></i></a>
                 <a><i class="fa-brands fa-square-instagram"></i></a>
                 <a><i class="fa-brands fa-x-twitter"></i></a>
                 <a><i class="fa-brands fa-linkedin"></i></a>
