@@ -51,28 +51,8 @@ include 'session.php';
         <p id="homeDesc">
             <B>Ruhiyya,</B> we believe that mental well-being should be accessible, personalized, and seamlessly integrated into everyday life. Our mission is to empower individuals with the right tools and resources to navigate their emotional well-being with confidence. By combining AI-driven insights, mood-based recommendations, and location-aware services, we create a tailored experience that helps users make informed decisions about their mental health in real-time. More than just an app, Ruhiyya is a compassionate companion designed to support self-awareness, encourage proactive well-being, and bridge the gap between individuals and mental health professionals. With a special focus on inclusivity, particularly for women and those with unique needs, we strive to make mental wellness an intuitive and empowering journey for all. <br><br></p>
         
-    </section>
-    <section class="course">
-        <h1>Qui est nouveau dans notre <b>programme</b></h1>
-        <p>Et qui est <i>exceptionnel</i>?</p>
-
-        <div class="row">
-            <div class="course-col">
-                <h3>Therapist Connection</h3>
-                <p>Users can access and contact mental health professionals directly through the platform</p>
-            </div>
-            <div class="course-col">
-                <h3>Mood-Based Recommendations</h3>
-                <p>Users take a quick pre-test to evaluate their daily mood, and the system suggests suitable activities and places to visit based on their emotional state
-                </p>
-            </div>
-            <div class="course-col">
-                <h3>Knowledge Base for Mental Wellness</h3>
-                <p>A structured repository of resources, self-care techniques, and scientifically backed tips to help users understand and improve their mental health
-                </p>
-            </div>
-        </div>
-    </section>
+    
+          
 
     <!-- campus -->
 
@@ -111,15 +91,10 @@ include 'session.php';
             <div class="campus-col">
                 <img src="./images/meknes.jpg" alt="">
                 <a href="./maps/meknes.php"><div class="layer">
-                    <h3>MEKNES</h3>
-                </div></a>
-            </div>
-            <div class="campus-col">
-                <img src="./images/Salé.jpg" alt="">
-                <a href="./maps/sale.php"><div class="layer">
                     <h3>Inclusivity for Women</h3>
                 </div></a>
             </div>
+            
         
         
         </div>
