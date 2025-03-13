@@ -119,7 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             color: red;
             font-size: 0.9em;}
     </style>
-    <title>ConcentrEsi - Mot de passe oublié</title>
+    <title>Ruhiyyah - Mot de passe oublié</title>
 </head>
 <body>
     <div class="container">
