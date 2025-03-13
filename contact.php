@@ -40,7 +40,7 @@ include 'session.php';
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>Contactez-Nous</h1>
+        <h1>Contact Us</h1>
     </header>   
 
     <!-- contact us -->
@@ -61,33 +61,33 @@ include 'session.php';
                 <div>
                     <i class="fa-solid fa-globe"></i>
                     <span>
-                        <h5>www.concentrix.com</h5>
-                        <p>Visitez notre site web</p>
+                        <h5>www.Ruhiyya.com</h5>
+                        <p>Visit our website</p>
                     </span>
                 </div>
                 <div>
                     <i class="fa-solid fa-phone"></i>
                     <span>
                         <h5>05372-19500</h5>
-                        <p>Lundi à Vendredi, 9AM à 5PM</p>
+                        <p>Monday to Friday, 9AM to 5PM</p>
                     </span>
                 </div>
                 <div>
                     <i class="fa-solid fa-envelope-o"></i>
                     <span>
                         <h5>infos@webhelp.ma</h5>
-                        <p>Envoyez un mail ici</p>
+                        <p>Send your emails</p>
                     </span>
                 </div>
             </div>
             <div class="contact-col">
 
                 <form action="https://formspree.io/f/manwnrzo" method="post">
-                    <h3 style ="color:#000080">Communiquez votre problème</h3>
-                    <input type="text" name="Nom" placeholder="Entrez votre nom..." required>
-                    <input type="email" name="Email"placeholder="Entrez votre adresse mail..." required>
-                    <input type="text"name="Problème" placeholder="Type du problème confronté... " required>
-                    <textarea name="Detail" placeholder="Plus de detail..." rows="8"></textarea>
+                    <h3 style ="color:#000080">Communicate your problem</h3>
+                    <input type="text" name="Nom" placeholder="Entrer your name..." required>
+                    <input type="email" name="Email"placeholder="Enter your adress mail..." required>
+                    <input type="text"name="Problème" placeholder="Type of problem faced... " required>
+                    <textarea name="Detail" placeholder="More details..." rows="8"></textarea>
                     <button type="submit" class="hero-btn red-btn">Send Message</button>
                 </form>
 
@@ -115,16 +115,16 @@ include 'session.php';
         }
      </style>
     <footer class="footer">
-        <h4 style="color:#000080">Social</h4>
-        <p>Vérifiez Nos Réseaux Sociaux Pour Plus D'infos</p>
-        <div class="icons">
-            <a href="https://web.facebook.com/ConcentrixIN/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/concentrixmaroc/"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="https://x.com/Concentrix?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.linkedin.com/company/concentrix/"><i class="fa-brands fa-linkedin"></i></a>
-            
-        </div>
-    </footer>
+            <h4 style="color:#000080">Social</h4>
+            <p>Don't forget to visit us in our social media platforms !</p>
+            <div class="icons">
+                <a ><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-square-instagram"></i></a>
+                <a><i class="fa-brands fa-x-twitter"></i></a>
+                <a><i class="fa-brands fa-linkedin"></i></a>
+                
+            </div>
+        </footer>
 
 
 
