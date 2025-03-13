@@ -63,19 +63,19 @@ include 'session.php';
         <div class="row">
 
             <div class="campus-col">
-                <img src="./images/tour_hassan2.jpg" alt="">
+                <img src="./images/pretest.jpg" alt="">
                 <a href="./maps/rabat.php"><div class="layer">
                     <h3>Mood-Based Recommendations</h3>
                 </div></a>
             </div>
             <div class="campus-col">
-                <img src="./images/marrakesh.jpg" alt="">
+                <img src="./images/location.jpg" alt="">
                 <a href="./maps/marrakesh.php"><div class="layer">
                     <h3>Location-Aware Suggestions</h3>
                 </div></a>
             </div>
             <div class="campus-col">
-                <img src="./images/fez.jpg" alt="">
+                <img src="./images/base.jpg" alt="">
                 <a href="./maps/fez.php"><div class="layer">
                     <h3>Knowledge Base for Mental Wellness</h3>
                 </div></a>
@@ -83,20 +83,32 @@ include 'session.php';
         </div>
         <div class="row">
             <div class="campus-col">
-                <img src="./images/agadir-morocco.jpg" alt="">
+                <img src="./images/therapist.jpg" alt="">
                 <a href="./maps/agadir.php"><div class="layer">
                     <h3>Therapist Connection</h3>
                 </div></a>
             </div>
             <div class="campus-col">
-                <img src="./images/meknes.jpg" alt="">
+                <img src="./images/women.jpg" alt="">
                 <a href="./maps/meknes.php"><div class="layer">
                     <h3>Inclusivity for Women</h3>
                 </div></a>
             </div>
-            
-        
-        
+            <div class="campus-col">
+                <img src="./images/Salé.jpg" alt="">
+                <a href="./maps/sale.php"><div class="layer">
+                    <h3>SALE</h3>
+                </div></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="campus-col">
+                <img src="./images/kenitra.jpg" alt="">
+                <a href="./maps/kenitra.php"><div class="layer">
+                    <h3>KENITRA</h3>
+                </div></a>
+            </div>
+        </div>
         </div>
     </section>
     <style>
