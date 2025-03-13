@@ -19,7 +19,7 @@ include 'session.php';
     <!-- css file -->
     <link rel="stylesheet" href="./css/main.css">
         <!-- favicon -->
-        <link rel="icon" type="image/png" href="./images/fav.png">
+        <link rel="icon" type="image/png" href="./images/fav1.png">
 </head>
 <body> 
     <!--   header section   -->
