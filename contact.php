@@ -44,9 +44,7 @@ include 'session.php';
 
     <!-- contact us -->
 
-    <section class="location">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1fjF6tibqAYcMnVdnBh1oTcCI6hpNCsg&ehbc=2E312F" width="640" height="480"></iframe>
-    </section>
+
     <style>
         .fa-globe{color:#000080;font-size: 30px;}
         .fa-phone{color:#000080;font-size: 30px}
@@ -113,17 +111,7 @@ include 'session.php';
            color:#000080
         }
      </style>
-    <footer class="footer">
-            <h4 style="color:#000080">Social</h4>
-            <p>Don't forget to visit us in our social media platforms !</p>
-            <div class="icons">
-                <a ><i class="fa-brands fa-facebook"></i></a>
-                <a><i class="fa-brands fa-square-instagram"></i></a>
-                <a><i class="fa-brands fa-x-twitter"></i></a>
-                <a><i class="fa-brands fa-linkedin"></i></a>
-                
-            </div>
-        </footer>
+
 
 
 
