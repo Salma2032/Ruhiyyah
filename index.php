@@ -112,9 +112,7 @@ include 'session.php';
         height: 450px; /* Adjust the height as needed */
     }
 </style>
-<div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6NuJV2KxxXg?si=xOeaJp1KT2Rg9wT-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+
     <!-- Facilities -->
     <!--<section class="facilities">
         <h1>Our Facilities</h1>
