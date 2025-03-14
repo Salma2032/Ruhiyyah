@@ -112,6 +112,17 @@ include 'session.php';
         }
      </style>
 
+        <footer class="footer">
+            <h4 style="color:#000080">Social</h4>
+            <p>Don't forget to visit us in our social media platforms !</p>
+            <div class="icons">
+            <a ><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-square-instagram"></i></a>
+                <a><i class="fa-brands fa-x-twitter"></i></a>
+                <a><i class="fa-brands fa-linkedin"></i></a>
+                
+            </div>
+        </footer>
 
 
 
