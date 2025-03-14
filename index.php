@@ -49,7 +49,7 @@ include 'session.php';
         <h1>ABOUT US </h1>
         <p id="homeDesc">
             <B>Ruhiyyah,</B>we believe that mental well-being should be accessible, personalized, and seamlessly integrated into everyday life. Our mission is to empower individuals with the right tools and resources to navigate their emotional well-being with confidence. By combining AI-driven insights, mood-based recommendations, and location-aware services, we create a tailored experience that helps users make informed decisions about their mental health in real-time. More than just an app, Ruhiyya is a compassionate companion designed to support self-awareness, encourage proactive well-being, and bridge the gap between individuals and mental health professionals. With a special focus on inclusivity, particularly for women and those with unique needs, we strive to make mental wellness an intuitive and empowering journey for all.<br><br></p>
-        <a href="https://www.concentrix.com/" class="hero-btn ">VISITER NOTRE SITE</a>
+        
     </section>
     
 
