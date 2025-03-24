@@ -88,14 +88,14 @@ label_mapping = {
 def predict():
     data = request.get_json()
     
-    print("Received data:", data)  # 👀 Log pour vérifier l'entrée
+    print("Received data:", data)  #  Log pour vérifier l'entrée
 
     if "features" not in data:
         return jsonify({"error": "Missing 'features' key"}), 400
 
     # Vérification du nombre de features
     features = np.array(data["features"]).reshape(1, -1)
-    print("Processed features:", features)  # 👀 Log après conversion
+    print("Processed features:", features)  # Log après conversion
 
     # Vérification que les features ont bien la bonne forme
     print("Shape of features received:", features.shape)
