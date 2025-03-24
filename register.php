@@ -198,7 +198,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="text" name="username" placeholder="Nom d'utilisateur"  value=<?php echo htmlspecialchars($user); ?>>
             <p class="error"><?php echo "$userError ";?></p>
 
-            <input type="text" name="email" placeholder="Mail d'ESI"  value=<?php echo htmlspecialchars($email); ?>>
+            <input type="text" name="email" placeholder="Entrer votre gmail"  value=<?php echo htmlspecialchars($email); ?>>
             <p class="error"><?php echo "$emailError ";?></p>
 
             <input type="password" id="password" name="password" placeholder="Mot de passe"  value=<?php echo htmlspecialchars($pass); ?>>
