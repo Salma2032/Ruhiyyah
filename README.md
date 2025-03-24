@@ -6,7 +6,7 @@ Ruhiyyah is a web application designed to serve as a personalized, accessible, a
 
 ---
 
-Key Features & Innovation:*  
+Key Features & Innovation:
 - *Mood-Based Recommendations:* Users take a quick pre-test to evaluate their daily mood, and the system suggests suitable activities and places to visit based on their emotional state.  
 - *Location-Aware Suggestions:* The app dynamically provides activity and place recommendations in the user's city, ensuring practical and accessible options.  
 - *Knowledge Base for Mental Wellness:* A structured repository of resources, self-care techniques, and scientifically backed tips to help users understand and improve their mental health.  
