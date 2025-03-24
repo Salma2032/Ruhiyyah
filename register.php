@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $email = $_POST["email"];
         if (!preg_match("/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/",  $email)) {
-            $emailError = "Entrez votre mail d'<b>ESI</b>";
+            $emailError = "Entrez votre gmail ";
             $isvalid = false;
         } else {
             $sql = "SELECT * FROM register WHERE email='$email'";
